@@ -32,15 +32,13 @@ a{
   }
 
   .logo{
-    position: static;
-    width: 76px;
-    height: 20px;
-    font-style: normal;
-    font-weight: bold ;
-    color: #6070FF;
-    text-align: center;
-
+    color: #6070ff;
+    font-size: 18px;
+    line-height: 80px;
+    padding: 0 50px;
+    font-weight: bold;
   }
+  
 
   .nav-link{
     transition: 0.7s ease;
@@ -65,7 +63,7 @@ a{
     background-color: #6070FF;
   }
 
-@media(max-width: 796px){
+@media(min-width: 6px){
   .hamburger{
     display: block;
   }
@@ -78,7 +76,7 @@ a{
     transform: translateY(8px) rotate(45deg);
   }
   .hamburger.active .bar:nth-child(3){
-    transform: translateY(8px) rotate(-45deg);
+    transform: translateY(-8px) rotate(-45deg);
   }
 
 }
@@ -102,4 +100,69 @@ a{
 
 .nav-menu.active{
   left: 0;
+}
+.intro{
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  width: 62%;;
+}
+
+main{
+  width: 1440px;
+  height: 916px;
+  top: 1px;
+}
+
+h1{
+  font-size: 48px;
+  font-style: 52px;
+  width: 70%;
+  display: flex;
+  line-height: 60px;
+  align-items: center;
+  font-family: poppins, sans-serif;
+  color: #172b4d;
+}
+
+h2{
+  font-family: poppins, sans-serif;
+  color: #344563;
+  font-size: 20px;
+  padding: 20px 0;
+  width: 60%;
+ 
+}
+
+.connect{
+  color: #7fbcff;
+}
+.connect:hover{
+  color: #353535;
+}
+
+
+
+
+.ell3{
+position: absolute;
+top: 15%;
+left: 90%;
+z-index: -1;
+}
+.ell11{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  z-index: -1;
+
+}
+
+.ell4{
+
+  position: absolute;
+  bottom: 10%;
+  left: 60%;
+  z-index: -1;
+
 }
