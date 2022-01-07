@@ -8,20 +8,21 @@
 
 body {
   font-family: sans-serif;
-  background-image: url(Image/backimg.png);
+  background-image: url("Image/backimg.png");
 }
 
-.toolbar-class{
+.toolbar-class {
   display: flex;
   justify-content: space-between;
 }
-nav{
+
+nav {
   background-color: white;
   height: 80px;
   width: 100%;
 }
 
-nav h1.logo{
+nav h1.logo {
   display: flex;
   font-size: 18px;
   line-height: 80px;
@@ -31,12 +32,12 @@ nav h1.logo{
   align-items: center;
 }
 
-nav ul{
+nav ul {
   float: right;
   margin-right: 20px;
 }
 
-nav ul li{
+nav ul li {
   display: inline-block;
   line-height: 80px;
   margin: 0 5px;
@@ -51,26 +52,21 @@ a:hover {
   transition: 0.7s ease;
 }
 
-.intro{
-  margin: 20% 15%;
-}
-
-section h1{
+section h1 {
   position: static;
-  font-family: 'poppins', sans-serif;
+  font-family: sans-serif;
   color: #091e42;
   width: 80%;
   font-size: 48px;
 }
 
-section p{
+section p {
   position: static;
-  font-family: 'poppins', sans-serif;
+  font-family: sans-serif;
   color: #344563;
   font-size: 20px;
   line-height: 28px;
 }
-
 
 .hamburger {
   display: flex;
@@ -84,7 +80,6 @@ section p{
   width: 25px;
   height: 3px;
   margin: 5px auto;
-  -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background-color: #6070ff;
 }
@@ -106,10 +101,12 @@ section p{
     transform: translateY(-8px) rotate(-45deg);
   }
 }
+
 @media (max-width: 800px) {
   .checkbtn {
     display: block;
   }
+}
 
 .nav-menu {
   position: fixed;
@@ -138,28 +135,27 @@ section p{
   width: 62%;
 }
 
-.socials{
+.socials {
   color: #7fbcff;
   font-size: 16px;
   padding-bottom: 20px;
 }
 
-.socials:hover{
+.socials:hover {
   background: #acb7c3;
   transition: 0.4s;
 }
 
-
-.s-icon{
+.s-icon {
   list-style: none;
   display: flex;
   float: left;
   font-size: 16px;
   padding-bottom: 20px;
   margin: 1px;
-  padding: 5px;
   justify-content: space-between;
 }
+
 .icon {
   width: 20px;
   margin-right: 10px;
