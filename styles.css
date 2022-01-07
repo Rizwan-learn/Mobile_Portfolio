@@ -52,7 +52,7 @@ a:hover {
 }
 
 .intro{
-  margin: 15% 10%;
+  margin: 20% 15%;
 }
 
 section h1{
@@ -136,4 +136,33 @@ section p{
   top: 30%;
   left: 20%;
   width: 62%;
+}
+
+.socials{
+  color: #7fbcff;
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+
+.socials:hover{
+  background: #acb7c3;
+  transition: 0.4s;
+}
+
+
+.s-icon{
+  list-style: none;
+  display: flex;
+  float: left;
+  font-size: 16px;
+  padding-bottom: 20px;
+  margin: 1px;
+  padding: 5px;
+  justify-content: space-between;
+}
+.icon {
+  width: 20px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: row;
 }
